@@ -13,3 +13,42 @@
  *= require_tree .
  *= require_self
  */
+
+head {
+    display: none;
+}
+
+h1 {
+    display: block;
+    font-family: verdana;
+    color: #333;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+tr {
+    display: table-row;
+    border-color: inherit;
+}
+
+th {
+    font-family: arial;
+    font-size: 13px;
+    color: #333;
+}
+
+td {
+    font-family: sans-serif;
+    font-size: 13px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+h2 {
+    font-family: verdana;
+}
+
+h4 {
+    font-family: 
+}

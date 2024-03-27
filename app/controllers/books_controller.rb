@@ -29,7 +29,7 @@ class BooksController < ApplicationController
     if @book.update(book_params)
       redirect_to book_path(@book.id)
     else
-      render :edit
+       render :edit
     end
   end
   
@@ -42,7 +42,7 @@ class BooksController < ApplicationController
   private
   
   def book_params
-    params.permit(:title, :body)
+    params.require(:book).permit(:title, :body)
   end
   
 end
