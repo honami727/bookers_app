@@ -14,8 +14,19 @@
  *= require_self
  */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 head {
     display: none;
+}
+
+body {
+    margin: 33px;
+    color: #333;
 }
 
 h1 {
@@ -23,7 +34,13 @@ h1 {
     font-family: verdana;
     color: #333;
     line-height: 18px;
+    margin: 10.72px 0;
     font-weight: bold;
+    font-size: 32px;
+}
+
+table {
+    text-indent: initial;
 }
 
 tr {
@@ -35,6 +52,8 @@ th {
     font-family: arial;
     font-size: 13px;
     color: #333;
+    padding-bottom: 5px;
+    text-align: center;
 }
 
 td {
@@ -43,12 +62,38 @@ td {
     padding-bottom: 7px;
     padding-left: 5px;
     padding-right: 5px;
+    margin: 33px;
 }
 
 h2 {
+    display: block;
     font-family: verdana;
+    font-weight: bold;
+    margin: 13.28px 0;
 }
 
-h4 {
-    font-family: 
+label {
+    display: block;
+}
+
+strong {
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    font-family: verdana;
+    font-size: 13px;
+    margin: 33px;
+    line-height: 18px;
+}
+
+a{
+    color: #000;
+    text-decoration: underline;
+    font-size: 13px;
+}
+
+a:visited {
+    color: #666;
 }
