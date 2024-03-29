@@ -27,6 +27,8 @@ head {
 body {
     margin: 33px;
     color: #333;
+    font-size: 13px;
+    background-color: #fff;
 }
 
 h1 {
@@ -34,9 +36,14 @@ h1 {
     font-family: verdana;
     color: #333;
     line-height: 18px;
-    margin: 10.72px 0;
     font-weight: bold;
     font-size: 32px;
+    margin: 10.72px 0;
+}
+
+div {
+    display: block;
+    margin-bottom: 10px;
 }
 
 table {
@@ -96,4 +103,9 @@ a{
 
 a:visited {
     color: #666;
+}
+
+form {
+    display: block;
+    margin-top: 0px;
 }
