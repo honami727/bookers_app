@@ -14,11 +14,6 @@
  *= require_self
  */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 head {
     display: none;
@@ -29,16 +24,16 @@ body {
     color: #333;
     font-size: 13px;
     background-color: #fff;
+    line-height: 18px;
+    font-family: verdana, arial, helvetica, sans-serif;
 }
 
 h1 {
     display: block;
-    font-family: verdana;
     color: #333;
     line-height: 18px;
     font-weight: bold;
-    font-size: 32px;
-    margin: 10.72px 0;
+    margin-bottom: 0px;
 }
 
 div {
@@ -47,6 +42,8 @@ div {
 }
 
 table {
+    display: table;
+    box-sizing: border-box;
     text-indent: initial;
 }
 
@@ -56,27 +53,26 @@ tr {
 }
 
 th {
-    font-family: arial;
-    font-size: 13px;
+    display: table-cell;
     color: #333;
     padding-bottom: 5px;
     text-align: center;
+    font-weight: bold;
 }
 
 td {
-    font-family: sans-serif;
+    display: table-cell;
     font-size: 13px;
     padding-bottom: 7px;
     padding-left: 5px;
     padding-right: 5px;
-    margin: 33px;
+    vertical-align: inherit;
 }
 
 h2 {
     display: block;
-    font-family: verdana;
     font-weight: bold;
-    margin: 13.28px 0;
+    margin-top: 0px;
 }
 
 label {
@@ -89,10 +85,13 @@ strong {
 
 p {
     display: block;
-    font-family: verdana;
     font-size: 13px;
     margin: 33px;
     line-height: 18px;
+}
+
+#notice {
+    color: green;
 }
 
 a{
@@ -108,4 +107,8 @@ a:visited {
 form {
     display: block;
     margin-top: 0px;
+}
+
+.field {
+    margin-top: 15px;
 }
